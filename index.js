@@ -18,6 +18,6 @@ function deepestChild() {
   var deppestNode = grandNode.children[0]
   var found =false
   while(found === false){
-    
-  }
+    deppestNode = grandNode.children[0]
+  } 
 } 
