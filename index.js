@@ -14,18 +14,6 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  var grandNode = document.getElementById("grand-node");
-  var next_level, deepest_level;
-  var found = false;
-  while (found === false) {
-    next_level = current_level.children
-    if (next_level.length === 0) {
-      deepest_level = current_level;
-      found = true;
-    }
-    else {
-      current_level = next_level[0];
-    }
-  }
-  return deepest_level
+  var grandNode = document.querySelector("#grand-node");
+  var deppestNode = grandNode.children[0]
 } 
